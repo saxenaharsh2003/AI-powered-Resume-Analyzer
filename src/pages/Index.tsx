@@ -37,7 +37,7 @@ export default function Index() {
             <span className="font-display text-lg font-bold text-foreground">ResumeAI</span>
           </Link>
           <div className="flex items-center gap-3">
-            <Button variant="ghost" asChild>
+            <Button variant="ghost" className="text-foreground" asChild>
               <Link to="/login">Sign In</Link>
             </Button>
             <Button asChild>
